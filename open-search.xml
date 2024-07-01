@@ -8,7 +8,7 @@ xmlns:sfdc="http://salesforce.com/2016/federatedsearch/1.0">
 <Query role="example" searchTerms="Project Files" />
 <SyndicationRight>limited</SyndicationRight>
 <Url type="application/rss+xml" rel="results" sfdc:maxTotalResults="300000" sfdc:maxCount="1000" indexOffset="0"
-template="https://app.box.com/app-api/salesforce/search?userEmail={sfdc:userEmail}&amp;query={searchTerms}&amp;sfdcSearchSyntax={sfdc:searchSyntax}&amp;sfdcFindById={sfdc:searchById?}&amp;sfdcUserId={sfdc:userId}&amp;sfdcOrgId={sfdc:orgId}&amp;offset={startIndex?}&amp;limit=100"/>
+template="https://app.box.com/app-api/salesforce/search?userEmail={sfdc:userEmail}&amp;query={searchTerms}&amp;sfdcSearchSyntax={sfdc:searchSyntax}&amp;sfdcFindById={sfdc:searchById?}&amp;sfdcUserId={sfdc:userId}&amp;sfdcOrgId={sfdc:orgId}&amp;offset={startIndex?}&amp;limit=50"/>
 <InputEncoding>UTF-8</InputEncoding>
 <OutputEncoding>UTF-8</OutputEncoding>
 <sfdc:Version>1</sfdc:Version>
