@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+xmlns:sfdc="http://salesforce.com/2016/federatedsearch/1.0">
+<ShortName>Box</ShortName>
+<Developer>Box</Developer>
+<Image height="16" width="16" type="image/x-icon">https://cdn01.boxcdn.net/favicon.ico</Image>
+<Image height="64" width="64" type="image/png">https://cdn01.boxcdn.net/boxlogo.png</Image>
+<Query role="example" searchTerms="Project Files" />
+<SyndicationRight>limited</SyndicationRight>
+<Url type="application/rss+xml" rel="results" sfdc:maxTotalResults="300000" sfdc:maxCount="1000" indexOffset="0"
+template="https://app.box.com/app-api/salesforce/search?userEmail={sfdc:userEmail}&amp;query={searchTerms}&amp;sfdcSearchSyntax={sfdc:searchSyntax}&amp;sfdcFindById={sfdc:searchById?}&amp;sfdcUserId={sfdc:userId}&amp;sfdcOrgId={sfdc:orgId}&amp;offset={startIndex?}&amp;limit=100"/>
+<InputEncoding>UTF-8</InputEncoding>
+<OutputEncoding>UTF-8</OutputEncoding>
+<sfdc:Version>1</sfdc:Version>
+<sfdc:maxTotalResults>300000</sfdc:maxTotalResults>
+<sfdc:maxCount>1000</sfdc:maxCount>
+</OpenSearchDescription>
